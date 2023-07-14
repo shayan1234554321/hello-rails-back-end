@@ -1,5 +1,3 @@
-class Greetings < ApplicationRecord
-    
-    validates :text, presence: true
-  end
-  
+class Greeting < ApplicationRecord
+  validates :text, presence: true
+end
